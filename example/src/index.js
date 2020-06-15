@@ -6,8 +6,8 @@ import 'core-js/fn/set'
 import React from 'react';
 import { render } from 'react-dom';
 // import TimePeriodSelector from '../../src/components/TimePeriodSelector/TimePeriodSelector';
-import TimePeriodSelector from 'time-period-selector';
-import 'time-period-selector/lib/main.min.css';
+import TimePeriodSelector from '@congbao/time-period-selector';
+import '@congbao/time-period-selector/lib/main.min.css';
 
 const App = () => (
   <div className="time-period-selector-container">

@@ -27,6 +27,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "@congbao/time-period-selector": "^1.0.1",
     "babel-preset-stage-2": "^6.24.1",
     "classnames": "^2.2.6",
     "react-selectable-fast": "^3.4.0"
