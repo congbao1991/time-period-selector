@@ -2,3 +2,8 @@
 *.babelrc 
 yarn.lock
 yarn-error.log
+package.json
+
+/example
+/config
+/src
