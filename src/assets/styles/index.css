@@ -1,0 +1,129 @@
+.time-period-selector-wrapper {
+  width: 600px;
+  overflow: hidden;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.time-period-selector-day-wrapper {
+  display: inline-block;
+  width: 85px;
+  font-size: 14px;
+  color: #2f2f2f;
+  user-select: none;
+  position: relative;
+  background: #fff;
+  padding-top: 24px;
+}
+
+.time-period-selector-day-wrapper:after {
+  width: 2px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: 9001;
+}
+
+.time-period-selector-item {
+  box-sizing: border-box;
+  width: 24px;
+  display: inline-block;
+  border-top: 1px solid rgba(240, 241, 245, 1);
+  border-left: 1px solid rgba(240, 241, 245, 1);
+  height: 24px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  color: #6f7b85;
+  user-select: none;
+}
+
+.time-period-selector-item:nth-child(25n) {
+  border-right: 1px solid rgba(240, 241, 245, 1);
+}
+
+.time-period-selector-item:nth-child(n + 175) {
+  border-bottom: 1px solid rgba(240, 241, 245, 1);
+}
+
+.time-period-selector-item.selected {
+  background: #6a35f5;
+  color: white;
+  border-color: #6a35f5;
+}
+
+.time-period-selector-item.selecting {
+  background: rgba(246, 245, 255, 1);
+  color: white;
+  border-color: rgba(246, 245, 255, 1);
+}
+
+.time-period-selector-button-wrapper {
+  overflow: hidden;
+  padding-top: 10px;
+}
+.time-period-selector-button {
+  float: right;
+}
+.time-period-selector-tips {
+  font-size: 14px;
+  color: #6f7b85;
+}
+
+.time-period-selector-button button {
+  border: none;
+  background: transparent;
+  color: #6a35f5;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+}
+
+.selectable-selectbox {
+  z-index: 9000;
+  position: absolute;
+  cursor: default;
+  background: none;
+  border: 1px dashed grey;
+}
+
+.time-period-selector-day {
+  height: 24px;
+  line-height: 24px;
+}
+
+.time-period-selector-time {
+  display: inline-block;
+  width: 100px;
+}
+
+.time-period-selecto-ex {
+  font-size: 14px;
+  color: #2f2f2f;
+  margin: 0;
+  margin-top: 10px;
+  line-height: 1.5;
+  max-width: 685px;
+}
+
+.time-period-selector-container {
+  padding: 10px;
+  border: 1px solid rgba(240, 241, 245, 1);
+  display: inline-block;
+}
+
+.time-period-selector-title-wrapper {
+  padding-bottom: 10px;
+}
+
+.time-period-selector-title {
+  font-size: 14px;
+  color: #2f2f2f;
+  display: inline-block;
+  padding-left: 193px;
+}
