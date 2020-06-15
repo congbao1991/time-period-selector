@@ -4,3 +4,5 @@ config # webpack配置
 example # 开发时预览代码
 src # 组件源代码目录
 .babelrc # babel 配置
+yarn.lock
+yarn-error.log
