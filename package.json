@@ -1,7 +1,6 @@
 {
-  "name": "@zx/time-period-selector",
+  "name": "@congbao/time-period-selector",
   "version": "1.0.0",
-  "description": "",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +8,7 @@
     "build": "webpack --config config/webpack.prod.config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ozx",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -31,5 +30,18 @@
     "babel-preset-stage-2": "^6.24.1",
     "classnames": "^2.2.6",
     "react-selectable-fast": "^3.4.0"
-  }
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozx174/time-period-selector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ozx174/time-period-selector/issues"
+  },
+  "homepage": "https://github.com/ozx174/time-period-selector#readme",
+  "description": ""
 }
