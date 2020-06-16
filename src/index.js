@@ -3,7 +3,11 @@ import TimePeriodSelector from './components/TimePeriodSelector/TimePeriodSelect
 
 class App extends React.Component {
   render() {
-    return <TimePeriodSelector {...this.props} />
+    return (
+      <div className="time-period-selector-container">
+        <TimePeriodSelector {...this.props} />
+      </div>
+    )
   }
 }
 export default App;
